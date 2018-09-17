@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>js-table-project</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/modal-window.css">
+    </script>
+  </head>
+  <body>
+    <button id="create">Создать пост</button>
+        <div id="showModal">
+            <div class="showModal">
+                  <div class="modal-mask">
+                      <div class="modal-wrapper">
+                          <div class="modal-container">
+                            <div id="result"></div>
+                              <div class="modal-header">
+                                <h2>Новый пост</h2>
+                              </div>
+                              <div class="modal-body">
+                                  <h3>Заголовок:<input type="text" id="title"></h3><br>
+                                  Автор статьи: <input type="text" id="author">
+                                  <h2>Контент:</h2><textarea class="modal-textarea" id="content"></textarea>
+                              </div>
+                              <div class="modal-footer">
+                                  <a id="close" class="btn btn-danger">Назад</a>
+                                  <a id="success" class="btn btn-success">Опубликовать</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    <table id="table" class="table">
+      <tbody>
+        <tr>
+          <td style="width: 2%;">ID</td>
+          <td style="width: 18%;">Заголовок</td>
+          <td style="width: 40%;">Содержание</td>
+          <td style="width: 20%;">Автор</td>
+          <td style="width: 18%;">Дата</td>
+          <td style="width: 2%;">Удалить</td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="test"></div>
+    </body>
+    </html>
+    <script type="text/javascript" src="assets/js/table.js"></script>
+  </body>
+</html>
